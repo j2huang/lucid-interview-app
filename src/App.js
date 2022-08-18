@@ -13,6 +13,7 @@ import { ThemeProvider } from "@mui/material";
 import { createTheme } from '@mui/material/styles';
 
 // Define our own theme
+// TODO move this to template theme definition folder
 const theme = createTheme({
   palette: {
     primary: {
@@ -21,7 +22,6 @@ const theme = createTheme({
     }
   },
 });
-
 
 function App() {
 
